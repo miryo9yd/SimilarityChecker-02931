@@ -10,11 +10,9 @@ public :
 		int LongLength = getLongStrLenth(input1, input2);
 		int ShortLength = getShortStrLenth(input1, input2);
 
-
 		if (isSameStrLength(LongLength, ShortLength)) return  MAX_POINT;
 		if (isDoubleLength(LongLength, ShortLength)) return  0;
 		return getStrDiffPoint(LongLength, ShortLength);
-
 
 	}
 	int getStrDiffPoint(int LongLength, int ShortLength)
